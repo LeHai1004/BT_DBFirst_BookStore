@@ -1,1 +1,2 @@
-B??c 1: Thi?t k? v� t?o Database BookStoreDB b?ng script
+﻿Bước 1: Thiết kế và tạo cơ sở dữ liệu BookStoreDB bằng file script SQL.
+Bước 2: Khởi tạo dự án C# Console Application mang tên BookStoreApp trong Visual Studio.
