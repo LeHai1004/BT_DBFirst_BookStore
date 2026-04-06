@@ -1,0 +1,15 @@
+﻿CREATE DATABASE BookStoreDB;
+GO
+USE BookStoreDB;
+
+CREATE TABLE Categories (
+    CategoryId INT IDENTITY(1,1) PRIMARY KEY,
+    CategoryName NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Books (
+    BookId INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(200) NOT NULL,
+    Price DECIMAL(18,2) NOT NULL,
+    CategoryId INT FOREIGN KEY REFERENCES Categories(CategoryId)
+);
