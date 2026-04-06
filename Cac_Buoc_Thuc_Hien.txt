@@ -1,3 +1,4 @@
 ﻿Bước 1: Thiết kế và tạo cơ sở dữ liệu BookStoreDB bằng file script SQL.
 Bước 2: Khởi tạo dự án C# Console Application mang tên BookStoreApp trong Visual Studio.
 Bước 3: Cài đặt thư viện Entity Framework Core.
+Bước 4: Chạy lệnh Scaffold-DbContext để sinh code tự động từ Database (Database First).
